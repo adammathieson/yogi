@@ -5,10 +5,10 @@ const Yogi = () => {
 
     useEffect(() => {
         const tl = gsap.timeline()
-            tl.set("#leg, #leg_2", {transformOrigin: "40%, 10%"})
+            tl.set("#leg, #leg_2", {transformOrigin: "30%, 15%"})
 
-            tl.to('#leg', 3,{rotate: -80, yoyo: true, repeat: -1, ease: "none"})
-            tl.to('#leg_2', 3,{rotate: -80, yoyo: true, repeat: -1, ease: "none"})
+            // tl.fromTo('#leg', 1, {rotate: -10},{rotate: 10, yoyo: true, repeat: -1, ease: "none"})
+            tl.fromTo('#leg_2', 2, {rotate: 40, x: 11}, {rotate: -90, x: 20, yoyo: true, repeat: -1, ease: "none"})
 
         
     }, [])
