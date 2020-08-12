@@ -17,7 +17,6 @@ const Yogi = () => {
         <svg
             xmlns="http://www.w3.org/2000/svg"
             width="100"
-            // height="201"
             fill="none"
             viewBox="0 0 52 201"
             overflow="visible"
